@@ -4,6 +4,7 @@ Sorting files into folders by extension
 Python 3.7.4
 
 "move_files_with_extension.py"
+
 This program sort files in directory which is indicated in const 'PATH':
 
     1)Creates folders by files extension types
