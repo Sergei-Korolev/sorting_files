@@ -7,7 +7,7 @@ FILES = os.listdir(PATH)
 
 
 def create_folder(extension:str):
-    """Creating folder for each unique file extension"""
+    """Creating folder for each unique file extension and return extension path"""
     extension_path = PATH + f'{extension}/'
     if extension not in os.listdir(PATH): # os.listdir(PATH) every time calculated
         os.mkdir(extension_path)
